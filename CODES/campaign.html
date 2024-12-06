@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign Project - Vaishnavi Patil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .project-page-container {
+            margin-top: 20px;
+            padding-left: 20px; 
+            padding-top: 50px; 
+        }
+        .navbar {
+            position: fixed; 
+            top: 0;
+            width: 100%;
+            height: 50px;
+            z-index:500; 
+            background-color: #fff8c3; 
+        }
+        .navbar-toggler-icon {
+         background-color: #000;
+        }
+        .navbar .navbar-brand {
+            font-weight: normal;
+            color: #000000;
+        }
+        .back-arrow {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #000;
+            text-decoration: none;
+        }
+        .project-description {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .project-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px; 
+            margin-top: 20px;
+        }
+        .project-images img {
+            max-width: 30%;
+            border-radius: 8px;
+        }
+        .project-images img[src*="c8.jpg"], .project-images img[src*="c9.jpg"] {
+            max-width: 60%; 
+        }
+        .footer {
+            margin-top: 60px;
+            padding: 20px;
+            background-color:#fff8c3;
+            color: #000000;
+        }
+    
+        @media (max-width: 992px) {
+            .navbar-collapse {
+                text-align: right; 
+            }
+            .navbar-nav {
+                width: 100%; 
+                justify-content: flex-end; 
+            }
+        }
+        
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="portfolio.html">Vaishnavi Patil</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="navbar-brand" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a class="navbar-brand" href="work.html">Work</a></li>
+                <li class="nav-item"><a class="navbar-brand" href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container project-page-container">
+    <h2>
+        <a href="portfolio.html#campaign" class="back-arrow">
+            <i class="fas fa-arrow-left"></i>
+        </a>
+        Campaign
+    </h2>
+    <div class="concept-note">
+        <p><b>Concept Note:</b> Redesigned the Penguin Random House logo with book-themed elements.<br>
+             The rebranding includes a social media campaign and a London launch event on May 18th, <br>
+             timed for book buying. Attendees will receive branded merchandise, and posters will <br>
+             showcase the logo's meaning. New merchandise will be available after the event.</p>
+        
+        <div class="apps-used">
+            <b>Apps Used:</b> Adobe Photoshop and Illustrator
+        </div>
+        <div class="time-taken">
+            <b>Time Taken:</b> 2 weeks
+        </div>
+    </div>
+</div>
+
+<div class="project-images">
+    <img src="../IMG/c2.jpg" alt="Brochure Image 2">
+    <img src="../IMG/c6.jpg" alt="Brochure Image 3">
+</div>
+
+<div class="project-images">
+    <img src="../IMG/c5.jpg" alt="Brochure Image 1">
+    <img src="../IMG/c7.jpg" alt="Brochure Image 1">
+</div>   
+
+<div class="project-images">
+    <img src="../IMG/c8.jpg" alt="Brochure Image 1">
+</div> 
+
+<div class="project-images">
+    <img src="../IMG/c9.jpg" alt="Brochure Image 1">
+</div> 
+
+<footer class="footer text-center">
+    <p>© Vaishnavi Patil | Communication Design</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
